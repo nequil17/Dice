@@ -25,7 +25,7 @@ buttontwo.addEventListener('click', function() {
 });
 
 Die.prototype.roll = function() {
-    this.value = Math.floor(Math.random()*6 +1); 
+    this.value = Math.floor(Math.random()*6 + 1); 
     this.div.innerText = this.value;
 }
 
